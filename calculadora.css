@@ -1,0 +1,583 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* background-image: url(https://previews.123rf.com/images/cherezoff/cherezoff1801/cherezoff180100307/93024587-fondo-abstracto-con-n%C3%BAmeros-volar-n%C3%BAmeros-sobre-fondo-negro.jpg); */
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    cursor: url(./imagenes/image\ .webp), auto;
+}
+.titulo{
+    display: flex;
+    margin-bottom: 150px;
+   
+
+}
+/*mmusicccccccccccccccccccccccccccccca*/
+.musicas .musica{
+  
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 150px;
+    width: 300px;
+    margin: auto;
+    padding-left: 70px;
+    margin-top: 170px;
+    margin-left: 130px;
+    font-size: 50px;
+    
+    
+}
+
+
+.musicas .musica:hover{
+     color: red;
+     /* height: 80px; */
+     /* font-size: 60px; */
+     transition: 3s;
+     transform: scale(1.9);
+     cursor: url(./imagenes/image\ .webp), auto;
+}
+
+/*operadores*/
+.multipli{
+    margin-top: -5px;
+    font-size: 80px;
+    color: rgb(255, 42, 0);
+
+}
+
+.dividir{
+   margin-top: -20px;
+    font-size: 100px;
+    color: rgb(152, 109, 9);
+}
+.sumar{
+   
+    font-size: 100px;
+    color: rgb(17, 24, 235);
+}
+
+
+.punto{
+    margin-top: -50px;
+    font-size: 100px;
+    color: rgb(17, 235, 111);
+}
+
+.borrador{
+        margin-top: -20px;
+        font-size: 70px;
+        color: rgb(254, 9, 9);
+
+
+}
+
+.igual{
+    margin-top: -20px;
+    font-size: 100px;
+    color: rgb(255, 243, 14); 
+}
+ .flecha{
+    margin-top: 0px;
+    font-size: 70px;
+    color: rgb(254, 9, 9);
+ }
+ .restar{
+    margin-top: 0px;
+    font-size: 70px;
+    color: rgb(151, 23, 149);
+ }
+
+
+
+
+/*--------------------------------------------------------------------*/
+.muerte{
+    margin-left: 60px;
+    height: 100px;
+    width: 100px;
+}
+
+/* .muerte:hover{
+     background-color: rgb(248, 244, 244); 
+    height: 50px;
+    width: 50px;
+    margin-left: 150px;
+    transition: 4s;
+
+} */
+/*aniananananananananananananananananananananananananananan*/
+#dibujobaterista{
+    display: none;
+    margin-top: 600px;
+    margin-left: 150px;
+    animation: bat 3s infinite alternate;
+}
+
+@keyframes bat {
+    0%{
+        transform: scale(0.6);
+    }
+    50%{
+        transform: scale(0.9);
+    }
+
+    75%{
+
+        transform: scale(1.5);
+
+    }
+
+    100%{
+        transform: scale(1.5);
+    }
+}
+
+
+
+
+
+#dibujobaterista2{
+    display: none;
+    margin-top: 600px;
+    margin-left: 150px;
+    animation: batt 3s infinite alternate;
+}
+
+@keyframes batt {
+    0%{
+        transform: scale(0.6);
+    }
+    50%{
+        transform: scale(0.9);
+    }
+    75%{
+        transform: scale(1.5);
+    }
+
+    100%{
+        transform: scale(1.5);
+    }
+}
+
+
+/*sssssssssssssssssssssssssttttttttttttttttoppppppppp*/
+
+#stop{
+    background-color: black;
+    color: rgb(255, 254, 254);
+    margin-left: 200px;
+    margin-top: 80px;
+    font-size: 45px;
+
+}
+#stop:hover{
+    cursor: url(./imagenes/image\ .webp), auto;
+    transform: scale(1.5);
+    transition: 2s;
+    color: red;
+
+
+}
+#gaa{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    margin-left: 100px;
+}
+.color{
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(158, 19, 19);
+}
+
+#dibujo{
+    margin-left: 50px;
+    display: none;
+    height: 300px;
+    width: 300px;
+}
+
+.imagenHielo{
+    
+    height: 300px;
+    
+    
+}
+
+.imagenHielo3{
+    height: 300px;
+    margin-left: -40px;
+    z-index: -1;
+
+}
+
+.imagenHielo4{
+    height: 300px;
+    margin-left: -140px;
+    z-index: -1;
+
+}
+
+/*ddddddddddddddddddddddddddddddddddddddddddddddddddddddddd*/
+.dibujito{
+    /* background-color: red; */
+    height: 400px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    animation: fondo 4s infinite alternate;
+    animation-delay: 8s;
+   
+
+}
+@keyframes fondo {
+    0%{
+        transform: translateX(0px);
+        
+        /* background-color: white; */
+    }
+    10%{
+        transform: translateX(0px);
+    }
+    25%{
+        /* background-color: white; */
+        transform: translateX(-150px);
+    }
+    50%{
+        transform: scale(0.7);
+        /* background-color: rgb(240, 238, 238); */
+    }
+    75%{
+        transform: translateX(150px);
+
+    }
+    90%{
+        transform: translateX(0px);
+
+    }
+   
+    100%{
+        transform: translateX(0px);
+        background-color: rgb(3, 3, 3);
+    }
+}
+
+
+.todo{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.imagenHielo{
+    margin-left: -5px;
+}
+.imagenHielo2{
+   margin-left: -5px;
+   width: 400px;
+   height: 150px;
+}
+.numerosAnimados{
+    /* background-color: red; */
+    width: 610px;
+    height: 150%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    color: red;
+}
+
+
+.qqq{
+    font-size: 50px;
+    animation: mover 2s infinite alternate;
+
+}
+.qqq1{
+    font-size: 50px;
+    animation: uno 2s infinite;
+    margin-left: 15px;
+
+}
+@keyframes uno{
+    0%{
+        transform: translateY(-250px);
+    }
+    /* 50%{
+        transform: translateY(300px);
+    } */
+    100%{
+        color: rgb(4, 34, 234);
+        transform: translateY(800px);
+    }
+    
+}
+
+
+.qqq2{
+    font-size: 50px;
+    animation: mover 3s infinite;
+
+}
+.qqq3{
+    font-size: 50px;
+    animation: tres 1.5s infinite;
+
+}
+
+@keyframes tres{
+    0%{
+        transform: translateY(-250px);
+    }
+    /* 50%{
+        transform: translateY(300px);
+    } */
+    100%{
+        color: rgb(232, 74, 6);
+        transform: translateY(800px);
+    }
+    
+}
+
+
+
+
+.qqq4{
+    font-size: 50px;
+    animation: cinco 4s infinite;
+
+}
+@keyframes cinco{
+    0%{
+        transform: translateY(-250px);
+    }
+    /* 50%{
+        transform: translateY(300px);
+    } */
+    100%{
+        color: rgb(255, 0, 247);
+        transform: translateY(800px);
+    }
+    
+}
+
+
+
+.qqq5{
+    font-size: 50px;
+    animation: seis 2.6s infinite;
+
+}
+
+@keyframes seis{
+    0%{
+        transform: translateY(-250px);
+    }
+    /* 50%{
+        transform: translateY(300px);
+    } */
+    100%{
+        color: rgb(208, 255, 0);
+        transform: translateY(800px);
+    }
+    
+}
+
+
+
+@keyframes mover {
+    0%{
+        transform: translateY(-250px);
+    }
+    /* 50%{
+        transform: translateY(300px);
+    } */
+    100%{
+        color: red;
+        transform: translateY(800px);
+    }
+    
+}
+h1{
+    
+    margin-left: 690px;
+    position: absolute;
+    font-size: 70px;
+    
+}
+.border{
+    color: black;
+    text-shadow: 
+     -1px -1px 0 white,
+     1px -1px 0 white,
+     1px 1px 0 white,
+     -1px 1px 0 white
+}
+.wave{
+    color: red;
+    animation: wave 2s ease-in-out infinite;
+}
+
+@keyframes wave {
+    0%, 100%{
+        clip-path: polygon(
+            0% 47%,
+            10% 48%,
+            33% 54%,
+            54% 60%,
+            70% 61%,
+            84% 59%,
+            100% 52%,
+            100% 100%,
+            0% 100%
+        );
+    }
+    50%{
+        clip-path: polygon(
+            0% 60%,
+            15% 65%,
+            34% 66%,
+            51% 62%,
+            67% 50%,
+            84% 45%,
+            100% 46%,
+            100% 100%,
+            0% 100%
+        );
+    }
+    
+}
+.calculadora{
+    cursor: url(./imagenes/image\ .webp), auto;
+   
+    height: 700px;
+    width: 600px;
+    /* background-color: rgb(61, 51, 51); */
+    background-image: url(https://i.pinimg.com/736x/5c/ed/be/5cedbe039be40a70428d7c0ec6d034f0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    margin-top: 10px;
+   margin-bottom: 100px;
+    
+}
+.calculadora .numeros{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%; 
+    margin-top: 20px;
+  
+    
+}
+#valor-actual{
+    color: red;
+    font-size: 60px;
+    
+}
+#valor-anterior{
+    color: red;
+    font-size: 60px;
+}
+
+/*numeros*/
+.numerouno{
+    font-size: 80px;
+    color: #09f;
+}
+
+.numeroocho{
+    color: red;
+    font-size: 80px;
+}
+.numeronueve{
+    font-size: 80px;
+    color: yellow;
+}
+
+
+.numerocuatro{
+    font-size: 80px;
+    color: rgb(8, 228, 228);
+}
+.numerocinco{
+    font-size: 80px;
+    color: rgb(52, 232, 28);
+}
+.numeroseis{
+    font-size: 80px;
+    color: rgb(205, 34, 228);
+}
+.numerosiete{
+    font-size: 80px;
+    color: rgb(255, 0, 21);
+}
+.numerodos{
+    font-size: 80px;
+    color: #09f;
+
+}
+
+.numerotres{
+    font-size: 80px;
+    color: rgb(234, 238, 240);
+
+}
+/**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*/
+
+
+.calculadora button{
+    cursor: url(./imagenes/image\ .webp), auto;
+    display: grid;
+    grid-template-columns: repeat(3, 80px); 
+    width: 145px;
+    height: 100px;
+    margin-left: 0px;
+    background-color: transparent;
+    border: none;
+    /* color: black; */
+    /* font-size: 40px; */
+    padding-left: 28px;
+    /* padding-top: 0px; */
+}
+
+
+
+/* .calculadora button:hover{
+        background-color: rgb(0, 0, 0);
+        color: white;
+} */
+
+.display{
+    display: block;
+    height: 180px;
+    width: 98.3%;
+    background-color: rgb(232, 224, 224);
+    align-items: flex-end;
+    text-align: right;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-right: 10px;
+   
+}
+/* #reset{
+    background-color: rgb(0, 0, 0);
+    
+}
+#divicion{
+    background-color: rgb(0, 0, 0);
+
+}
+#multiplicacion{
+    background-color: rgb(0, 0, 0);
+
+}
+#suma{
+    background-color: rgb(0, 0, 0);
+
+} */
+
+/*muerte1*/
+
+.muerte1{
+    
+    height: 400px;
+    width: 200px;
+    margin-left: -120px;
+}
